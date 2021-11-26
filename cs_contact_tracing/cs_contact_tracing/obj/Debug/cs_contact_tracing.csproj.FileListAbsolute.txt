@@ -1,0 +1,10 @@
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\contact-tracing\cs_contact_tracing\cs_contact_tracing\bin\Debug\cs_contact_tracing.exe.config
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\contact-tracing\cs_contact_tracing\cs_contact_tracing\bin\Debug\cs_contact_tracing.exe
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\contact-tracing\cs_contact_tracing\cs_contact_tracing\bin\Debug\cs_contact_tracing.pdb
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\contact-tracing\cs_contact_tracing\cs_contact_tracing\obj\Debug\cs_contact_tracing.csproj.AssemblyReference.cache
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\contact-tracing\cs_contact_tracing\cs_contact_tracing\obj\Debug\cs_contact_tracing.Form1.resources
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\contact-tracing\cs_contact_tracing\cs_contact_tracing\obj\Debug\cs_contact_tracing.Properties.Resources.resources
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\contact-tracing\cs_contact_tracing\cs_contact_tracing\obj\Debug\cs_contact_tracing.csproj.GenerateResource.cache
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\contact-tracing\cs_contact_tracing\cs_contact_tracing\obj\Debug\cs_contact_tracing.csproj.CoreCompileInputs.cache
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\contact-tracing\cs_contact_tracing\cs_contact_tracing\obj\Debug\cs_contact_tracing.exe
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\contact-tracing\cs_contact_tracing\cs_contact_tracing\obj\Debug\cs_contact_tracing.pdb
