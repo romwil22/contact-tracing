@@ -35,7 +35,7 @@ namespace cs_contact_tracing
             this.panel3 = new System.Windows.Forms.Panel();
             this.middleInitialBox = new System.Windows.Forms.TextBox();
             this.middleInitialLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.surnameBox = new System.Windows.Forms.TextBox();
             this.lastNameBox = new System.Windows.Forms.Label();
             this.firstNameBox = new System.Windows.Forms.TextBox();
             this.firstnameLabel = new System.Windows.Forms.Label();
@@ -44,11 +44,11 @@ namespace cs_contact_tracing
             this.ynsLabel = new System.Windows.Forms.Label();
             this.ageLabel = new System.Windows.Forms.Label();
             this.birthdateLabel = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.genderBox = new System.Windows.Forms.TextBox();
+            this.ageBox = new System.Windows.Forms.TextBox();
             this.birthdateBox = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.studentNoBox = new System.Windows.Forms.TextBox();
             this.studentNumberLabel = new System.Windows.Forms.Label();
             this.genderLabel = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -56,7 +56,7 @@ namespace cs_contact_tracing
             this.addressBox = new System.Windows.Forms.TextBox();
             this.addressLabel = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.emailBox = new System.Windows.Forms.TextBox();
             this.emailLabel = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.contactNoBox = new System.Windows.Forms.TextBox();
@@ -115,7 +115,7 @@ namespace cs_contact_tracing
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.middleInitialBox);
             this.panel3.Controls.Add(this.middleInitialLabel);
-            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.surnameBox);
             this.panel3.Controls.Add(this.lastNameBox);
             this.panel3.Controls.Add(this.firstNameBox);
             this.panel3.Controls.Add(this.firstnameLabel);
@@ -142,13 +142,13 @@ namespace cs_contact_tracing
             this.middleInitialLabel.TabIndex = 5;
             this.middleInitialLabel.Text = "M.I:";
             // 
-            // textBox1
+            // surnameBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(283, 9);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(113, 22);
-            this.textBox1.TabIndex = 4;
+            this.surnameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.surnameBox.Location = new System.Drawing.Point(283, 9);
+            this.surnameBox.Name = "surnameBox";
+            this.surnameBox.Size = new System.Drawing.Size(113, 22);
+            this.surnameBox.TabIndex = 4;
             // 
             // lastNameBox
             // 
@@ -226,21 +226,21 @@ namespace cs_contact_tracing
             this.birthdateLabel.TabIndex = 4;
             this.birthdateLabel.Text = "Date of Birth (M/D/Y):";
             // 
-            // textBox2
+            // genderBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(346, 8);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(48, 23);
-            this.textBox2.TabIndex = 7;
+            this.genderBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.genderBox.Location = new System.Drawing.Point(346, 8);
+            this.genderBox.Name = "genderBox";
+            this.genderBox.Size = new System.Drawing.Size(48, 23);
+            this.genderBox.TabIndex = 7;
             // 
-            // textBox3
+            // ageBox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(442, 8);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(29, 23);
-            this.textBox3.TabIndex = 8;
+            this.ageBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ageBox.Location = new System.Drawing.Point(442, 8);
+            this.ageBox.Name = "ageBox";
+            this.ageBox.Size = new System.Drawing.Size(29, 23);
+            this.ageBox.TabIndex = 8;
             // 
             // birthdateBox
             // 
@@ -253,20 +253,20 @@ namespace cs_contact_tracing
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel5.Controls.Add(this.textBox6);
+            this.panel5.Controls.Add(this.studentNoBox);
             this.panel5.Controls.Add(this.studentNumberLabel);
             this.panel5.Location = new System.Drawing.Point(12, 166);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(238, 42);
             this.panel5.TabIndex = 9;
             // 
-            // textBox6
+            // studentNoBox
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(107, 9);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(117, 23);
-            this.textBox6.TabIndex = 7;
+            this.studentNoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.studentNoBox.Location = new System.Drawing.Point(107, 9);
+            this.studentNoBox.Name = "studentNoBox";
+            this.studentNoBox.Size = new System.Drawing.Size(117, 23);
+            this.studentNoBox.TabIndex = 7;
             // 
             // studentNumberLabel
             // 
@@ -291,8 +291,8 @@ namespace cs_contact_tracing
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel6.Controls.Add(this.textBox3);
-            this.panel6.Controls.Add(this.textBox2);
+            this.panel6.Controls.Add(this.ageBox);
+            this.panel6.Controls.Add(this.genderBox);
             this.panel6.Controls.Add(this.ageLabel);
             this.panel6.Controls.Add(this.birthdateBox);
             this.panel6.Controls.Add(this.genderLabel);
@@ -333,20 +333,20 @@ namespace cs_contact_tracing
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel8.Controls.Add(this.textBox4);
+            this.panel8.Controls.Add(this.emailBox);
             this.panel8.Controls.Add(this.emailLabel);
             this.panel8.Location = new System.Drawing.Point(11, 310);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(320, 42);
             this.panel8.TabIndex = 10;
             // 
-            // textBox4
+            // emailBox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(131, 8);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(176, 22);
-            this.textBox4.TabIndex = 7;
+            this.emailBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailBox.Location = new System.Drawing.Point(131, 8);
+            this.emailBox.Name = "emailBox";
+            this.emailBox.Size = new System.Drawing.Size(176, 22);
+            this.emailBox.TabIndex = 7;
             // 
             // emailLabel
             // 
@@ -418,6 +418,7 @@ namespace cs_contact_tracing
             this.exitButton.TabIndex = 14;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = false;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // SubmitButton
             // 
@@ -429,6 +430,7 @@ namespace cs_contact_tracing
             this.SubmitButton.TabIndex = 13;
             this.SubmitButton.Text = "Sumit";
             this.SubmitButton.UseVisualStyleBackColor = false;
+            this.SubmitButton.Click += new System.EventHandler(this.SubmitButton_Click);
             // 
             // registerLabel
             // 
@@ -485,7 +487,7 @@ namespace cs_contact_tracing
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox surnameBox;
         private System.Windows.Forms.Label lastNameBox;
         private System.Windows.Forms.TextBox firstNameBox;
         private System.Windows.Forms.Label firstnameLabel;
@@ -496,11 +498,11 @@ namespace cs_contact_tracing
         private System.Windows.Forms.Label ynsLabel;
         private System.Windows.Forms.Label ageLabel;
         private System.Windows.Forms.Label birthdateLabel;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox genderBox;
+        private System.Windows.Forms.TextBox ageBox;
         private System.Windows.Forms.TextBox birthdateBox;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox studentNoBox;
         private System.Windows.Forms.Label studentNumberLabel;
         private System.Windows.Forms.Label genderLabel;
         private System.Windows.Forms.Panel panel6;
@@ -508,7 +510,7 @@ namespace cs_contact_tracing
         private System.Windows.Forms.TextBox addressBox;
         private System.Windows.Forms.Label addressLabel;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox emailBox;
         private System.Windows.Forms.Label emailLabel;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.TextBox contactNoBox;

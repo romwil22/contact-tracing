@@ -1,0 +1,6 @@
+Fullname: r d p
+Student No. XXXX-XXXXX-XX-X     YR/SEC: bscoe 5-1d
+Birthdate: 11/22/1992     Gender: m     Age: 29
+Address: tondo
+Email: sample@gmail.com     Mobile No. 09xxxxxxxxx
+
